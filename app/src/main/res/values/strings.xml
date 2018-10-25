@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Android Modul</string>
+    <string name="tittle">PRAKTIKUM MDP MODUL ANDROID</string>
+    <string name="regtittle">REGISTRASI DATA</string>
+    <string name="user">username</string>
+    <string name="password">password</string>
+    <string name="login">masuk</string>
+    <string name="register">register</string>
+    <string name="logout">Logout</string>
+    <string name="about">About</string>
+    <string name="email">Email</string>
+    <string name="Header">Selamat Datang Di Program Modul 2</string>
+    <string name="name">Nama Kamu</string>
+    <string name="description">Program ini dibuat oleh Ray dan Rizki</string>
+</resources>

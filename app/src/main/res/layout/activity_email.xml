@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmailActivity">
+
+    <EditText
+        android:id="@+id/editTextTo"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="Android Modul"
+        android:hint="To"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextSbj"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="Android Modul"
+        android:hint="Subject"
+        android:inputType="textEmailSubject"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTo"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTo" />
+    <EditText
+        android:id="@+id/editTextMsg"
+        android:layout_width="293dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="Android Modul"
+        android:hint="Message"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="@+id/editTextSbj"
+        app:layout_constraintStart_toStartOf="@+id/editTextSbj"
+        app:layout_constraintTop_toBottomOf="@+id/editTextSbj" />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:hint="SEND"
+        android:textColorHint="@color/light"
+        android:background="@color/button"
+        app:layout_constraintEnd_toEndOf="@+id/editTextMsg"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/editTextMsg"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMsg" />
+
+</android.support.constraint.ConstraintLayout>
